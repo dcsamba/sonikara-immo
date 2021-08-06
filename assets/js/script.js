@@ -1,6 +1,7 @@
 (function ($) {
 
     $('#send').on('click', function() {
+        e.preventDefault();
         result = checkForm();
         if (result.error) {
             Swal.fire({
