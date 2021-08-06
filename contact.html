@@ -267,25 +267,25 @@
                     <div class="col-xl-8 col-lg-7">
                         <div class="form">
                             <h3 class="title">Envoyez-Nous Un Message</h3>
-                            <form>
+                            <form id="contact-form">
                                 <div class="row">
                                     <div class="col-xl-6 col-lg-6 col-sm-6">
-                                        <input type="text" placeholder="Nom - Prénom" required>
+                                        <input id="name" type="text" placeholder="Nom - Prénom" required>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-sm-6">
-                                        <input type="email" placeholder="Email" required>
+                                        <input id="email" type="email" placeholder="Email" required>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-sm-6">
-                                        <input type="text" placeholder="Téléphone" required>
+                                        <input id="phone" type="text" placeholder="Téléphone" required>
                                     </div>
                                     <div class="col-xl-6 col-lg-6 col-sm-6">
-                                        <input type="text" placeholder="Achat, Vente, Location..." required>
+                                        <input id="subject" type="text" placeholder="Achat, Vente, Location..." required>
                                     </div>
                                     <div class="col-xl-12 col-lg-12">
-                                        <textarea placeholder="De quoi voulez-vous parler ?" required></textarea>
+                                        <textarea id="content" placeholder="De quoi voulez-vous parler ?" required></textarea>
                                     </div>
                                     <div class="col-xl-12 col-lg-12">
-                                        <button type="submit" class="def-btn btn-2">ENVOYER</button>
+                                        <button id="send" type="submit" class="def-btn btn-2">ENVOYER</button>
                                     </div>
                                 </div>
                             </form>
@@ -419,7 +419,10 @@
     <script src="assets/js/popper.min.js"></script>
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Sweet Alert JS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- custom js -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

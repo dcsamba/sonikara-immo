@@ -447,19 +447,19 @@
                             <h4>Avez-vous Projet en tête ?</h4>
                             <h2>Demandez une proposition</h2>
                         </div>
-                        <form>
+                        <form id="contact-form">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6">
-                                    <input type="text" placeholder="Nom - Prénom" required>
+                                    <input id="name" type="text" placeholder="Nom - Prénom" required>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
-                                    <input type="email" placeholder="Adresse Email" required>
+                                    <input id="email" type="email" placeholder="Adresse Email" required>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
-                                    <input type="text" placeholder="Téléphone" required>
+                                    <input id="phone" type="text" placeholder="Téléphone" required>
                                 </div>
                                 <div class="col-xl-6 col-lg-6">
-                                    <input type="text" placeholder="Achat, vente, location..." required>
+                                    <input id="subject" type="text" placeholder="Achat, vente, location..." required>
                                     <!-- <select>
                                         <option>Location</option>
                                         <option>Achat</option>
@@ -467,10 +467,10 @@
                                     </select> -->
                                 </div>
                                 <div class="col-xl-12 col-lg-12">
-                                    <textarea placeholder="Parlez-nous en plus sur votre projet." required></textarea>
+                                    <textarea id="content" placeholder="Parlez-nous en plus sur votre projet." required></textarea>
                                 </div>
                                 <div class="col-xl-12 col-lg-12">
-                                    <button type="submit" class="def-btn btn-2">Soumettre</button>
+                                    <button id="send" type="submit" class="def-btn btn-2">Soumettre</button>
                                 </div>
                             </div>
                         </form>
@@ -880,7 +880,10 @@
     <script src="assets/js/popper.min.js"></script>
     <!-- bootstrap -->
     <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Sweet Alert JS -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <!-- custom js -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
