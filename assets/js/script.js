@@ -1,6 +1,6 @@
 (function ($) {
 
-    $('#send').on('click', function(e) {
+    $('#send').on('click', function() {
         e.preventDefault();
         result = checkForm();
         if (result.error) {
